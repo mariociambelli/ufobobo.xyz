@@ -42,6 +42,7 @@ export function Desktop() {
     >
       <Container className="relative">
         <div className=" md:mx-auto md:text-center xl:max-w-none">
+        <h4 className='mb-2 font-bold text-xs uppercase'>Soplaya</h4>
           <h1 className="text-4xl font-bold text-zinc-800 sm:text-4xl md:text-5xl">
             Desktop
           </h1>

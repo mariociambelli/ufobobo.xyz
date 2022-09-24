@@ -6,6 +6,7 @@ import { AppStoreLink } from '@/components/AppStoreLink'
 import { PlayStoreLink } from '@/components/PlayStoreLink'
 import { Container } from '@/components/Container'
 
+
 import screenshotAppVendor from '@/images/screenshots/app-screen-vendor.png'
 import screenshotAppChart from '@/images/screenshots/app-screen-chart.png'
 import screenshotAppDelivery from '@/images/screenshots/app-screen-delivery.png'
@@ -54,11 +55,11 @@ export function Mobile() {
     return (
       <div className="mt-16 bg-white sm:mt-20">
         <div className="-my-4 flex justify-center gap-5 overflow-hidden py-16  sm:gap-8">
-          {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+          {[image4, image2, image1, image3, image5].map((image, imageIndex) => (
             <div
               key={image.src}
               className={clsx(
-                'relative  w-44 flex-none overflow-hidden rounded-xl shadow-xl sm:w-72 sm:rounded-2xl',
+                'relative  w-44 flex-none overflow-hidden rounded-xl ring-1 ring-gray-200 shadow-xl sm:w-72 sm:rounded-2xl',
                 rotations[imageIndex % rotations.length]
               )}
             >
@@ -82,6 +83,7 @@ export function Mobile() {
     >
       <Container className="relative">
         <div className="md:mx-auto md:text-center xl:max-w-none">
+          <h4 className='mb-2 font-bold text-xs uppercase'>Soplaya</h4>
           <h1 className="text-4xl font-bold  text-zinc-800 sm:text-4xl md:text-5xl">
             Mobile
           </h1>
@@ -94,6 +96,7 @@ export function Mobile() {
       </Container>
 
       <Photos />
+
       <div className="ml-0 mt-16 flex w-full justify-center gap-2 md:justify-center">
         <AppStoreLink color="black" />
         <PlayStoreLink color="black" />

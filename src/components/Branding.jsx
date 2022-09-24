@@ -37,11 +37,13 @@ export function Branding() {
     <div className="overflow-hidden bg-white py-20 sm:py-32 lg:pb-32 xl:pb-36">
       <Container>
         <div className=" md:mx-auto md:text-center xl:max-w-none">
+          <h4 className="mb-2 text-xs font-bold uppercase">Soplaya</h4>
           <h1 className="text-4xl font-bold text-black sm:text-4xl md:text-5xl">
             Branding
           </h1>
           <p className="mt-6 text-lg tracking-tight text-gray-600">
-            As a graphic designer I do love to spread concepts using visual creativity.
+            As a graphic designer I do love to spread concepts using visual
+            creativity.
           </p>
 
           <div className="mt-16 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto ">
@@ -54,9 +56,15 @@ export function Branding() {
             />
           </div>
           <div className="mt-16 text-center">
-            <Button src={PDFSoplaya} variant="outline" className="ring-1 ring-gray-200">
+            <Button
+              src={PDFSoplaya}
+              variant="outline"
+              className="ring-1 ring-gray-200"
+            >
               <PDFIcon className="h-6 w-6 flex-none" />
-              <a href="https://shared-assets.adobe.com/link/8e949e55-29d9-4f74-404a-c7e37c3e9bf2">See the document</a>
+              <a href="https://shared-assets.adobe.com/link/8e949e55-29d9-4f74-404a-c7e37c3e9bf2">
+                See the document
+              </a>
             </Button>
           </div>
         </div>

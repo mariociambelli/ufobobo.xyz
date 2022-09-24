@@ -5,6 +5,11 @@ h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 h1 {
   font-family: 'Open Sans', sans-serif;
 }
@@ -18,4 +23,25 @@ p {
   background-image: url('../images/avatar.jpg');
   background-size: cover;
   background-position: left center;
+}
+.one {
+  background-color: red;
+  height: 50vh;
+  width: calc(100vw - 16px);
+}
+
+.two {
+  background-color: green;
+  height: 50vh;
+  width: calc(100vw - 16px);
+}
+
+.three {
+  background-color: blue;
+  height: 100vh;
+  width: calc(100vw - 16px);
+}
+
+.pin__target {
+  opacity: 1;
 }
