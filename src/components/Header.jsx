@@ -7,7 +7,12 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
 import { NavLink } from '@/components/NavLink'
-import { MailIcon, GitHubIcon, LinkedInIcon, DribbbleIcon } from '@/components/SocialIcons'
+import {
+  MailIcon,
+  GitHubIcon,
+  LinkedInIcon,
+  DribbbleIcon,
+} from '@/components/SocialIcons'
 function MobileNavLink({ href, children }) {
   return (
     <Popover.Button as={Link} href={href} className="block w-full p-2">
@@ -91,9 +96,10 @@ function MobileNavigation() {
           >
             <MobileNavLink href="/">home</MobileNavLink>
             <MobileNavLink href="/about">about</MobileNavLink>
-            <hr  className="border-t-1 border-gray-200"></hr>
-            <MobileNavLink href="mailto:mario@bottegaduepuntozero.it">contact</MobileNavLink>
-            
+            <hr className="border-t-1 border-gray-200"></hr>
+            <MobileNavLink href="mailto:mario@bottegaduepuntozero.it">
+              contact
+            </MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -114,7 +120,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-44 md:gap-x-8">
             <div className="flex lg:pl-20">
-            <SocialLink
+              <SocialLink
                 href="https://dribbble.com/mariociambelli"
                 icon={DribbbleIcon}
                 className=""

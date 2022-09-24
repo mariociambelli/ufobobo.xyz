@@ -9,11 +9,7 @@ import { Container } from '@/components/Container'
 import { Mobile } from '@/components/Mobile'
 import { Desktop } from '@/components/Desktop'
 import { Branding } from '@/components/Branding'
-import {
-  GitHubIcon,
-  LinkedInIcon,
-  Mailicon,
-} from '@/components/SocialIcons'
+import { GitHubIcon, LinkedInIcon, Mailicon } from '@/components/SocialIcons'
 
 import { formatDate } from '@/lib/formatDate'
 
@@ -30,11 +26,17 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>Home - Mario Ciambelli. UI/UX Designer based in Tuscany</title>
-        <meta name="description" content="I'm Mario Ciambelli, aka ufobobo. UI/UX Designer based in Tuscany" />
-        <meta property="og:image" content="_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b4942396.jpg&w=1080&q=75" />
+        <meta
+          name="description"
+          content="I'm Mario Ciambelli, aka ufobobo. UI/UX Designer based in Tuscany"
+        />
+        <meta
+          property="og:image"
+          content="_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b4942396.jpg&w=1080&q=75"
+        />
       </Head>
 
-      <Container className="relative m-auto  flex h-screen items-center">
+      <Container className="relative m-auto flex h-screen items-center">
         <div className=" max-w-6xl">
           <h1 className="text-6xl text-zinc-800 md:text-8xl">
             I&apos;m Mario Ciambelli. <br></br>
