@@ -100,7 +100,7 @@ function MobileNavigation() {
             <MobileNavLink href="mailto:mario@bottegaduepuntozero.it">
               contact
             </MobileNavLink>
-          </Popover.Panel>
+          </Popover.Panel>npm
         </Transition.Child>
       </Transition.Root>
     </Popover>

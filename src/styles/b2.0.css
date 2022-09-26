@@ -18,30 +18,6 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-
-.mario-bg {
-  background-image: url('../images/avatar.jpg');
-  background-size: cover;
-  background-position: left center;
-}
-.one {
-  background-color: red;
-  height: 50vh;
-  width: calc(100vw - 16px);
-}
-
-.two {
-  background-color: green;
-  height: 50vh;
-  width: calc(100vw - 16px);
-}
-
-.three {
-  background-color: blue;
-  height: 100vh;
-  width: calc(100vw - 16px);
-}
-
-.pin__target {
-  opacity: 1;
-}
+/* .mario-bg {
+  background-image: linear-gradient(to bottom, #ead4bd, #d8b49e) !important;
+} */

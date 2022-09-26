@@ -42,15 +42,16 @@ export function Desktop() {
     >
       <Container className="relative">
         <div className=" md:mx-auto md:text-center xl:max-w-none">
-        <h4 className='mb-2 font-bold text-xs uppercase'>Soplaya</h4>
+          <h4 className="mb-2 text-xs font-bold uppercase">Soplaya</h4>
           <h1 className="text-4xl font-bold text-zinc-800 sm:text-4xl md:text-5xl">
             Desktop
           </h1>
           <p className="mt-6 text-lg tracking-tight text-zinc-600">
-          The complexity of business internal applications. The semplicity of a design system.
+            The complexity of business internal applications. The semplicity of
+            a design system.
           </p>
 
-          <div className="mt-16 w-full shadow-2xl overflow-hidden rounded-xl sm:w-auto ">
+          <div className="mt-16 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto ">
             <Image
               className="w-full"
               src={screenshotAppSales}
@@ -59,7 +60,8 @@ export function Desktop() {
               sizes="(min-width: 1024px),(min-width: 640px) 100vw, rem"
             />
           </div>
-          <div className="mt-8 md:mt-8 w-full shadow-2xl overflow-hidden rounded-xl sm:w-auto ">
+
+          <div className="mt-8 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto md:mt-8 ">
             <Image
               className="w-full"
               src={screenshotAppAccounting}
@@ -68,7 +70,7 @@ export function Desktop() {
               sizes="(min-width: 1024px),(min-width: 640px) 100vw, rem"
             />
           </div>
-          <div className="mt-8 md:mt-8 w-full shadow-2xl overflow-hidden rounded-xl sm:w-auto ">
+          <div className="mt-8 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto md:mt-8 ">
             <Image
               className="w-full"
               src={screenshotAppFarm}

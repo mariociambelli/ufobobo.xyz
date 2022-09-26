@@ -5,8 +5,6 @@ import clsx from 'clsx'
 import { AppStoreLink } from '@/components/AppStoreLink'
 import { PlayStoreLink } from '@/components/PlayStoreLink'
 import { Container } from '@/components/Container'
-
-
 import screenshotAppVendor from '@/images/screenshots/app-screen-vendor.png'
 import screenshotAppChart from '@/images/screenshots/app-screen-chart.png'
 import screenshotAppDelivery from '@/images/screenshots/app-screen-delivery.png'
@@ -15,6 +13,8 @@ import image2 from '@/images/prototype/image-2.jpg'
 import image3 from '@/images/prototype/image-3.jpg'
 import image4 from '@/images/prototype/image-4.jpg'
 import image5 from '@/images/prototype/image-5.jpg'
+
+import { motion } from 'framer-motion'
 
 const features = [
   {
@@ -31,7 +31,6 @@ const features = [
     image: screenshotAppChart,
   },
 ]
-
 export function Mobile() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
@@ -53,13 +52,13 @@ export function Mobile() {
     let rotations = ['rotate-0', 'rotate-0', 'rotate-0', 'rotate-0']
 
     return (
-      <div className="mt-16 bg-white sm:mt-20">
-        <div className="-my-4 flex justify-center gap-5 overflow-hidden py-16  sm:gap-8">
-          {[image4, image2, image1, image3, image5].map((image, imageIndex) => (
+      <div className="-my-4 flex justify-center gap-5 overflow-hidden py-16  sm:gap-8">
+        {[image4, image2, image1, image3, image5].map((image, imageIndex) => (
+          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>
             <div
               key={image.src}
               className={clsx(
-                'relative  w-44 flex-none overflow-hidden rounded-xl ring-1 ring-gray-200 shadow-xl sm:w-72 sm:rounded-2xl',
+                'relative  w-44 flex-none overflow-hidden rounded-xl  shadow-xl sm:w-72 sm:rounded-2xl',
                 rotations[imageIndex % rotations.length]
               )}
             >
@@ -70,8 +69,8 @@ export function Mobile() {
                 className=" object-fit  inset-0"
               />
             </div>
-          ))}
-        </div>
+          </motion.div>
+        ))}
       </div>
     )
   }
@@ -83,7 +82,7 @@ export function Mobile() {
     >
       <Container className="relative">
         <div className="md:mx-auto md:text-center xl:max-w-none">
-          <h4 className='mb-2 font-bold text-xs uppercase'>Soplaya</h4>
+          <h4 className="mb-2 text-xs font-bold uppercase">Soplaya</h4>
           <h1 className="text-4xl font-bold  text-zinc-800 sm:text-4xl md:text-5xl">
             Mobile
           </h1>
@@ -94,9 +93,7 @@ export function Mobile() {
           </p>
         </div>
       </Container>
-
       <Photos />
-
       <div className="ml-0 mt-16 flex w-full justify-center gap-2 md:justify-center">
         <AppStoreLink color="black" />
         <PlayStoreLink color="black" />
