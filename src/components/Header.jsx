@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
-
+import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
 import { NavLink } from '@/components/NavLink'
@@ -100,7 +100,7 @@ function MobileNavigation() {
             <MobileNavLink href="mailto:mario@bottegaduepuntozero.it">
               contact
             </MobileNavLink>
-          </Popover.Panel>npm
+          </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
     </Popover>
