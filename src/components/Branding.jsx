@@ -34,7 +34,7 @@ const minPrice = Math.min(...prices)
 
 export function Branding() {
   return (
-    <div className="overflow-hidden bg-white py-20 sm:py-32 lg:pb-32 xl:pb-36">
+    <div className="overflow-hidden bg-zinc-50 py-20 sm:py-32 lg:pb-32 xl:pb-36">
       <Container>
         <div className=" md:mx-auto md:text-center xl:max-w-none">
           <h4 className="mb-2 text-xs font-bold uppercase">Soplaya</h4>

@@ -38,7 +38,7 @@ export function Desktop() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-gray-50 pt-20 pb-28 sm:py-32"
+      className="relative overflow-hidden bg-zinc-100 pt-20 pb-28 sm:py-32"
     >
       <Container className="relative">
         <div className=" md:mx-auto md:text-center xl:max-w-none">

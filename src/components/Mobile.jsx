@@ -78,7 +78,7 @@ export function Mobile() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-white pt-20 pb-28 sm:py-24"
+      className="relative overflow-hidden bg-zinc-50 pt-20 pb-28 sm:py-24"
     >
       <Container className="relative">
         <div className="md:mx-auto md:text-center xl:max-w-none">

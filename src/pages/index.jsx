@@ -37,7 +37,7 @@ export default function Home({ articles }) {
         />
       </Head>
 
-      <Container className="mario-bg  pb-32 pt-20 md:p-32 m-auto flex items-center bg-zinc-900">
+      <Container className="mario-bg pb-32 pt-16 md:p-32 m-auto flex items-center bg-zinc-900">
         <div className="">
           <div className="max-w-6xl text-center">
             <div className='w-full'>
