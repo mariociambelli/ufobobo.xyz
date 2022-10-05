@@ -47,7 +47,7 @@ export default function About() {
           content="I'm Mario Ciambelli, aka ufobobo. UI/UX Designer based in Tuscany"
         />
       </Head>
-      <Container className="mt-16 sm:mt-32">
+      <Container className="mt-16 sm:mt-32 bg-zinc-900">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20">
             <div className="w-36 md:w-full">
@@ -60,10 +60,10 @@ export default function About() {
             </div>
           </div>
           <div className="lg:order-first lg:row-span-2">
-            <h1 className=" text-5xl text-zinc-800 md:text-7xl">
+            <h1 className=" text-5xl text-zinc-100 md:text-7xl">
               <b>I’m Mario Ciambelli.</b> UI/UX Designer based in Tuscany
             </h1>
-            <div className="mt-6 space-y-7 text-base text-zinc-600">
+            <div className="mt-6 space-y-7 text-base text-zinc-500">
               <p>
                 I was born in Lucca on March 11th 1987 and the town where I live
                 now is a source of infinte creative inspiration.

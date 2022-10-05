@@ -3,8 +3,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import portraitImage from '@/images/avatar.jpg'
 import clsx from 'clsx'
-
-
+import { motion, useScroll } from 'framer-motion'
+import { Glass } from '@/components/3DGlass'
 import { Container } from '@/components/Container'
 import { Mobile } from '@/components/Mobile'
 import { Desktop } from '@/components/Desktop'
@@ -23,6 +23,7 @@ function SocialLink({ icon: Icon, ...props }) {
 
 export default function Home({ articles }) {
   return (
+
     <>
       <Head>
         <title>Mario Ciambelli. UI/UX Designer based in Tuscany</title>
@@ -36,16 +37,23 @@ export default function Home({ articles }) {
         />
       </Head>
 
-      <Container className="relative m-auto mario-bg flex h-screen items-center">
-        <div className=" max-w-6xl">
-          <h1 className="text-6xl text-zinc-800 md:text-8xl">
-            I&apos;m Mario Ciambelli. <br></br>
-            <i className="text-6xl">aka</i> <b>ufobobò</b>
-          </h1>
-          <h2 className="mt-6 text-2xl text-zinc-600">
-            UI/UX Designer and creative content creator.<br></br>Currently
-            working @Soplaya
-          </h2>
+      <Container className="mario-bg  pb-32 pt-20 md:p-32 m-auto flex items-center bg-zinc-900">
+        <div className="">
+          <div className="max-w-6xl text-center">
+            <div className='w-full'>
+            <Glass />
+            </div>
+            <div className="">
+              <h1 className="text-6xl text-zinc-100 bold md:text-8xl"><b>
+                I&apos;m Ufobobo
+                </b>
+              </h1>
+              <h2 className="mt-6 text-2xl text-zinc-500">
+                UI/UX Designer and creative content creator.<br></br>Currently
+                working @Soplaya
+              </h2>
+            </div>
+          </div>
         </div>
       </Container>
       <Mobile />

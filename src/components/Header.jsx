@@ -37,7 +37,7 @@ function MobileNavIcon({ open }) {
   return (
     <svg
       aria-hidden="true"
-      className="h-3.5 w-3.5 overflow-visible stroke-slate-700"
+      className="h-3.5 w-3.5 overflow-visible stroke-zinc-100"
       fill="none"
       strokeWidth={2}
       strokeLinecap="round"
@@ -109,7 +109,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="bg-white py-6">
+    <header className="bg-zinc-900 py-6">
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
