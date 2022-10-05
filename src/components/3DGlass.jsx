@@ -7,7 +7,7 @@ import { GlassSVG } from '@/images/logos/glass.svg'
 export function Glass() {
   return (
     <div className="flex w-full justify-center">
-      <svg className="flex-no-shrink fill-current" viewBox="0 0 300 380" width="250px" height="380px">
+      <svg className="flex-no-shrink fill-current" viewBox="0 0 300 380" width="250px" height="350px">
         <defs>
           <linearGradient
             id="logo-gradient"

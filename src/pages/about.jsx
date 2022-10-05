@@ -10,7 +10,7 @@ import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/avatar.jpg'
+import portraitImage from '@/images/avatar.png'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -47,19 +47,18 @@ export default function About() {
           content="I'm Mario Ciambelli, aka ufobobo. UI/UX Designer based in Tuscany"
         />
       </Head>
-      <Container className="mt-16 sm:mt-32 bg-zinc-900">
+      <Container className="mt-16 bg-zinc-900 sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
-          <div className="lg:pl-20">
-            <div className="w-36 md:w-full">
+          <div className="lg:pl-28">
+            <div className='md:w-full w-60 '>
               <Image
                 src={portraitImage}
                 alt=""
-                sizes="(min-width: 1024px) 22rem, 22rem"
-                className="aspect-square rotate-0 rounded-full bg-zinc-100 object-cover dark:bg-zinc-800"
+                className="bg-zinc-900 object-cover"
               />
             </div>
           </div>
-          <div className="lg:order-first lg:row-span-2">
+          <div className="lg:order-first lg:row-span-2 -mt-28 md:mt-0">
             <h1 className=" text-5xl text-zinc-100 md:text-7xl">
               <b>I’m Mario Ciambelli.</b> UI/UX Designer based in Tuscany
             </h1>
