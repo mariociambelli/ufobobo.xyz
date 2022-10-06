@@ -44,8 +44,8 @@ export default function Home({ articles }) {
             <Glass />
             </div>
             <div className="">
-              <h1 className="text-6xl text-zinc-100 bold md:text-8xl"><b>
-                I&apos;m Ufobobo
+              <h1 className="text-6xl text-zinc-100 bold md:text-8xl">
+                I&apos;m <b>ufobobo
                 </b>
               </h1>
               <h2 className="mt-6 text-2xl text-zinc-500">
