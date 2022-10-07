@@ -8,14 +8,7 @@ import screenshotAppFarm from '@/images/screenshots/app-internal-farm.png'
 import screenshotAppSales from '@/images/screenshots/app-internal-sales.png'
 import screenshotAppAccounting from '@/images/screenshots/app-internal-accounting.png'
 
-const features = [
-  {
-    image: screenshotAppSales,
-  },
-  {
-    image: screenshotAppFarm,
-  },
-]
+
 export function Desktop() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
@@ -36,17 +29,15 @@ export function Desktop() {
 
   return (
     <section
-      id="features"
-      aria-label="Features for running your books"
-      className="relative overflow-hidden bg-zinc-100 pt-20 pb-28 sm:py-32"
+      className="relative overflow-hidden bg-zinc-200 pt-20 pb-28 sm:py-32"
     >
       <Container className="relative">
         <div className=" md:mx-auto md:text-center xl:max-w-none">
-          <h4 className="mb-2 text-xs font-bold uppercase">Soplaya</h4>
-          <h1 className="text-4xl font-bold text-zinc-800 sm:text-4xl md:text-5xl">
+          <h4 className="mb-2 text-xs font-bold uppercase">Soplaya case study</h4>
+          <h1 className="text-4xl font-bold text-black sm:text-4xl md:text-5xl">
             Desktop
           </h1>
-          <p className="mt-6 text-lg tracking-tight text-zinc-600">
+          <p className="mt-6 text-lg tracking-tight text-zinc-500">
             The complexity of business internal applications. The semplicity of
             a design system.
           </p>

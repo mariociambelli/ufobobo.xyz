@@ -47,19 +47,19 @@ export default function About() {
           content="I'm Mario Ciambelli, aka ufobobo. UI/UX Designer based in Tuscany"
         />
       </Head>
-      <Container className="mt-16 bg-zinc-900 sm:mt-32">
+      <Container className="mt-16 bg-black sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-28">
             <div className='md:w-full w-60 '>
               <Image
                 src={portraitImage}
                 alt=""
-                className="bg-zinc-900 object-cover"
+                className="bold object-cover"
               />
             </div>
           </div>
           <div className="lg:order-first lg:row-span-2 -mt-28 md:mt-0">
-            <h1 className=" text-5xl text-zinc-100 md:text-7xl">
+            <h1 className=" text-5xl text-zinc-300 md:text-7xl">
               <b>I’m Mario Ciambelli.</b> UI/UX Designer based in Tuscany
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-500">

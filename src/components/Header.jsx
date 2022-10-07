@@ -2,10 +2,8 @@ import { Fragment } from 'react'
 import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
-
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-
 import { NavLink } from '@/components/NavLink'
 import {
   MailIcon,
@@ -79,7 +77,7 @@ function MobileNavigation() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <Popover.Overlay className="fixed inset-0 bg-slate-300/50" />
+          <Popover.Overlay className="fixed inset-0 bg-zinc-700/50" />
         </Transition.Child>
         <Transition.Child
           as={Fragment}
@@ -92,11 +90,11 @@ function MobileNavigation() {
         >
           <Popover.Panel
             as="div"
-            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
+            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-black p-4 text-lg tracking-tight text-zinc-300 shadow-xl ring-1 ring-zinc-300/5"
           >
             <MobileNavLink href="/">home</MobileNavLink>
             <MobileNavLink href="/about">about</MobileNavLink>
-            <hr className="border-t-1 border-gray-200"></hr>
+            <hr className="border-t-1 border-zinc-800"></hr>
             <MobileNavLink href="mailto:mario@bottegaduepuntozero.it">
               contact
             </MobileNavLink>
@@ -109,7 +107,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="bg-zinc-900 py-6">
+    <header className="bg-black py-6">
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">

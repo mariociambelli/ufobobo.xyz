@@ -7,6 +7,7 @@ import { motion, useScroll } from 'framer-motion'
 import { Glass } from '@/components/3DGlass'
 import { Container } from '@/components/Container'
 import { Mobile } from '@/components/Mobile'
+import { SuperGallery } from '@/components/Gallery'
 import { Desktop } from '@/components/Desktop'
 import { Branding } from '@/components/Branding'
 import { GitHubIcon, LinkedInIcon, Mailicon } from '@/components/SocialIcons'
@@ -37,28 +38,29 @@ export default function Home({ articles }) {
         />
       </Head>
 
-      <Container className="mario-bg pb-32 pt-6 md:p-32 m-auto flex items-center bg-zinc-900">
+      <Container className="mario-bg pb-32 pt-6 md:p-32 m-auto flex items-center bg-black">
         <div className="">
           <div className="max-w-6xl text-center">
             <div className='w-full'>
             <Glass />
             </div>
             <div className="">
-              <h1 className="text-6xl text-zinc-100 bold md:text-8xl">
-                I&apos;m <b>ufobobo
+              <h1 className="text-6xl text-zinc-300 bold md:text-8xl">
+                <b>Bottega 2.0
                 </b>
               </h1>
               <h2 className="mt-6 text-2xl text-zinc-500">
-                UI/UX Designer and creative content creator.<br></br>Currently
-                working @Soplaya
+                I'm Mario Ciambelli, <i>aka Ufobobo</i>.<br></br>UI/UX Designer and creative content creator.
               </h2>
             </div>
           </div>
         </div>
       </Container>
       <Mobile />
+ 
       <Desktop />
-      <Branding />
+      <SuperGallery />
+
     </>
   )
 }

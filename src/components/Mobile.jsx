@@ -10,27 +10,12 @@ import screenshotAppChart from '@/images/screenshots/app-screen-chart.png'
 import screenshotAppDelivery from '@/images/screenshots/app-screen-delivery.png'
 import image1 from '@/images/prototype/image-1.jpg'
 import image2 from '@/images/prototype/image-2.jpg'
-import image3 from '@/images/prototype/image-3.jpg'
-import image4 from '@/images/prototype/image-4.jpg'
 import image5 from '@/images/prototype/image-5.jpg'
 
-import { motion } from 'framer-motion'
 
-const features = [
-  {
-    title: 'Semplicity is not stupidity',
-    description:
-      'I do like to craft simple but beautiful user interfaces. Less is more is my dogma.',
-    image: screenshotAppDelivery,
-  },
+import { motion, useScroll } from 'framer-motion'
 
-  {
-    title: 'Information design',
-    description:
-      'During my studies I have being inspired by the strenght of information design communication.',
-    image: screenshotAppChart,
-  },
-]
+
 export function Mobile() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
@@ -52,13 +37,13 @@ export function Mobile() {
     let rotations = ['rotate-0', 'rotate-0', 'rotate-0', 'rotate-0']
 
     return (
-      <div className="-my-4 flex justify-center gap-5 overflow-hidden py-16  sm:gap-8">
-        {[image4, image2, image1, image3, image5].map((image, imageIndex) => (
-          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 1.2 }}>
+      <div className="-my-4 md:flex w-full p-10 justify-center gap-4 overflow-hidden md:py-16  ">
+        {[image5, image1, image2].map((image, imageIndex) => (
+
             <div
               key={image.src}
               className={clsx(
-                'relative  w-44 flex-none overflow-hidden rounded-xl  shadow-xl sm:w-72 sm:rounded-2xl',
+                'relative overflow-hidden rounded-xl shadow-xl sm:w-80 sm:rounded-2xl mt-10 md:mt-0',
                 rotations[imageIndex % rotations.length]
               )}
             >
@@ -66,27 +51,28 @@ export function Mobile() {
                 src={image}
                 alt=""
                 sizes="(min-width: 640px) 18rem, 11rem"
-                className=" object-fit  inset-0"
+                className="object-fit  inset-0"
               />
             </div>
-          </motion.div>
+
         ))}
       </div>
+            
     )
   }
   return (
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-zinc-50 pt-20 pb-28 sm:py-24"
+      className="relative overflow-hidden bg-zinc-200 pt-20 pb-28 sm:py-24"
     >
       <Container className="relative">
         <div className="md:mx-auto md:text-center xl:max-w-none">
-          <h4 className="mb-2 text-xs font-bold uppercase">Soplaya</h4>
-          <h1 className="text-4xl font-bold  text-zinc-800 sm:text-4xl md:text-5xl">
+          <h4 className="mb-2 text-xs font-bold uppercase">Soplaya case study</h4>
+          <h1 className="text-4xl font-bold  text-black md:text-5xl">
             Mobile
           </h1>
-          <p className="mt-6 text-lg tracking-tight text-zinc-600">
+          <p className="mt-6 text-lg tracking-tight text-zinc-500">
             Semplicity is not stupitidy: I do love to craft simple but beautiful
             user interfaces.<br></br>
             The Soplaya case study.
@@ -96,7 +82,7 @@ export function Mobile() {
       <Photos />
       <div className="ml-0 mt-16 flex w-full justify-center gap-2 md:justify-center">
         <AppStoreLink color="black" />
-        <PlayStoreLink color="black" />
+
       </div>
     </section>
   )
