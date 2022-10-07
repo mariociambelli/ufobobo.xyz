@@ -24,10 +24,10 @@ export function Glass() {
                 repeatCount="indefinite"
               ></animate>
             </stop>
-            <stop offset="100%" stop-color="#ad277b">
+            <stop offset="100%" stop-color="##7A5FFF">
               <animate
                 attributeName="stop-color"
-                values="#27fde1; #ad277b; #27fde1"
+                values="#01FF89; #7A5FFF; #01FF89"
                 dur="4s"
                 repeatCount="indefinite"
               ></animate>

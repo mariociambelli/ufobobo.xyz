@@ -20,7 +20,7 @@ function Image({ id }) {
   const z = useParallax(scrollYProgress, 10)
 
   return (
-    <section className="section-gallery h-96 md:h-screen bg-black p-2">
+    <section className="section-gallery h-screen md:h-screen bg-black p-2">
       <motion.div style={{ z }} className="flex h-full items-center p-0">
         <img className="img-gallery" src={`/${id}.jpg`} />
       </motion.div>
@@ -53,7 +53,7 @@ function Image({ id }) {
 export function SuperGallery() {
   const { scrollYProgress } = useScroll()
   const scaleX = useSpring(scrollYProgress, {
-    stiffness: 300,
+    stiffness: 200,
     damping: 30,
     restDelta: 0.001,
   })
@@ -63,7 +63,7 @@ export function SuperGallery() {
         <Image id={image} />
       ))}
       <motion.div
-        className="progress z-50 bg-gradient-to-r from-cyan-300 to-pink-600"
+        className="progress z-50 bg-gradient-to-r from-teal-300 to-indigo-900"
         style={{ scaleX }}
       />
     </>
