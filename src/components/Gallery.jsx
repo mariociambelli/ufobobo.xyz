@@ -16,13 +16,13 @@ function useParallax(value, distance) {
 function Image({ id }) {
   const ref = useRef(null)
   const { scrollYProgress } = useScroll({ target: ref })
-  const y = useParallax(scrollYProgress, 400)
+  const y = useParallax(scrollYProgress, 150)
   const z = useParallax(scrollYProgress, 10)
 
   return (
     <section className="section-gallery h-screen bg-black p-2">
       <motion.div style={{ z }} className="flex h-full items-center p-0">
-      <img className="img-gallery" src={`/${id}.jpg`} />
+        <img className="img-gallery" src={`/${id}.jpg`} />
       </motion.div>
       <div className="flex h-full w-full items-center">
         <motion.h1 style={{ y }}>
@@ -46,11 +46,8 @@ function Image({ id }) {
         </motion.h1>
       </div>
     </section>
-    
   )
 }
-
-
 
 export function SuperGallery() {
   const { scrollYProgress } = useScroll()
@@ -64,7 +61,6 @@ export function SuperGallery() {
       {['1'].map((image) => (
         <Image id={image} />
       ))}
-
       <motion.div
         className="progress z-50 bg-gradient-to-r from-cyan-300 to-pink-600"
         style={{ scaleX }}

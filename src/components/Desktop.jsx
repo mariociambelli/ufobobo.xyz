@@ -44,32 +44,32 @@ export function Desktop() {
 
           <div className="mt-16 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto ">
             <Image
-              className="w-full"
+              className="w-full grayscale hover:grayscale-0"
               src={screenshotAppSales}
               alt=""
               priority
               sizes="(min-width: 1024px),(min-width: 640px) 100vw, rem"
             />
           </div>
-
           <div className="mt-8 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto md:mt-8 ">
             <Image
-              className="w-full"
-              src={screenshotAppAccounting}
-              alt=""
-              priority
-              sizes="(min-width: 1024px),(min-width: 640px) 100vw, rem"
-            />
-          </div>
-          <div className="mt-8 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto md:mt-8 ">
-            <Image
-              className="w-full"
+              className="w-full grayscale hover:grayscale-0"
               src={screenshotAppFarm}
               alt=""
               priority
               sizes="(min-width: 1024px),(min-width: 640px) 100vw, rem"
             />
           </div>
+          <div className="mt-8 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto md:mt-8 ">
+            <Image
+              className="w-full grayscale hover:grayscale-0"
+              src={screenshotAppAccounting}
+              alt=""
+              priority
+              sizes="(min-width: 1024px),(min-width: 640px) 100vw, rem"
+            />
+          </div>
+
         </div>
       </Container>
     </section>
