@@ -46,7 +46,7 @@ export function Mobile() {
             }}><div
               key={image.src}
               className={clsx(
-                'relative overflow-hidden w-full grayscale hover:grayscale-0 md:mt-0',
+                'relative overflow-hidden w-full md:mt-0',
                 rotations[imageIndex % rotations.length]
               )}
             >

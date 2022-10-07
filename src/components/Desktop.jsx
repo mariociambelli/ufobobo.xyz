@@ -44,7 +44,7 @@ export function Desktop() {
 
           <div className="mt-16 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto ">
             <Image
-              className="w-full grayscale hover:grayscale-0"
+              className="w-full"
               src={screenshotAppSales}
               alt=""
               priority
@@ -53,7 +53,7 @@ export function Desktop() {
           </div>
           <div className="mt-8 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto md:mt-8 ">
             <Image
-              className="w-full grayscale hover:grayscale-0"
+              className="w-full"
               src={screenshotAppFarm}
               alt=""
               priority
@@ -62,7 +62,7 @@ export function Desktop() {
           </div>
           <div className="mt-8 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto md:mt-8 ">
             <Image
-              className="w-full grayscale hover:grayscale-0"
+              className="w-full"
               src={screenshotAppAccounting}
               alt=""
               priority

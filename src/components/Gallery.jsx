@@ -20,13 +20,14 @@ function Image({ id }) {
   const z = useParallax(scrollYProgress, 10)
 
   return (
-    <section className="section-gallery h-screen bg-black p-2">
+    <section className="section-gallery h-96 md:h-screen bg-black p-2">
       <motion.div style={{ z }} className="flex h-full items-center p-0">
         <img className="img-gallery" src={`/${id}.jpg`} />
       </motion.div>
       <div className="flex h-full w-full items-center">
         <motion.h1 style={{ y }}>
           <div>
+            <h4 className="mb-2 text-xs text-zinc-300 font-bold uppercase">Soplaya case study</h4>
             <h1 className="bold text-4xl text-zinc-300 md:text-5xl">
               <b>Branding</b>
             </h1>

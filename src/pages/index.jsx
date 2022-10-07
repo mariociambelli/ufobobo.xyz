@@ -27,7 +27,7 @@ export default function Home({ articles }) {
 
     <>
       <Head>
-        <title>Mario Ciambelli. UI/UX Designer based in Tuscany</title>
+        <title>Bottega 2.0. UI/UX Designer based in Tuscany</title>
         <meta
           name="description"
           content="I'm Mario Ciambelli, aka ufobobo. UI/UX Designer based in Tuscany"
@@ -44,8 +44,8 @@ export default function Home({ articles }) {
             <div className='w-full'>
             <Glass />
             </div>
-            <div className="">
-              <h1 className="text-6xl text-zinc-300 bold md:text-8xl">
+            <div className="mt-6">
+              <h1 className="text-5xl uppercase text-zinc-300 bold md:text-7xl">
                 <b>Bottega 2.0
                 </b>
               </h1>
@@ -57,7 +57,6 @@ export default function Home({ articles }) {
         </div>
       </Container>
       <Mobile />
- 
       <Desktop />
       <SuperGallery />
 
