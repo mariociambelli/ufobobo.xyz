@@ -34,7 +34,7 @@ export function Mobile() {
     }
   }, [])
   function Photos() {
-    let rotations = ['rotate-0', 'rotate-0', 'rotate-0', 'rotate-0']
+    let rotations = ['rotate-0', 'rotate-0', 'rotate-0']
 
     return (
       <div className="-my-4 md:flex w-full p-10 md:p-40 justify-center overflow-hidden md:py-16  ">

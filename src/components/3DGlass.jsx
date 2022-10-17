@@ -19,7 +19,7 @@ export function Glass() {
             <stop offset="0%" stop-color="#7A5FFF">
               <animate
                 attributeName="stop-color"
-                values="#7A5FFF; #01FF89; #7A5FFF"
+                values="#7A5FFF; #7A5FFF; #7A5FFF"
                 dur="4s"
                 repeatCount="indefinite"
               ></animate>
@@ -27,8 +27,8 @@ export function Glass() {
             <stop offset="100%" stop-color="##7A5FFF">
               <animate
                 attributeName="stop-color"
-                values="#01FF89; #7A5FFF; #01FF89"
-                dur="4s"
+                values="#7A5FFF; #000; #7A5FFF"
+                dur="10s"
                 repeatCount="indefinite"
               ></animate>
             </stop>
