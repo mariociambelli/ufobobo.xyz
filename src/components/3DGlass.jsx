@@ -17,7 +17,7 @@ export function Glass() {
             y2="100%"
           >
             <stop offset="5%" stop-color="#7a5fff" />
-      <stop offset="95%" stop-color="#cdb7ff" />
+      <stop offset="95%" stop-color="#270055" />
           </linearGradient>
         </defs>
         <g>
