@@ -29,7 +29,7 @@ export function Desktop() {
 
   return (
     <section
-      className="relative w-full overflow-hidden px-0 bg-zinc-200 pt-20 pb-28 sm:py-32"
+      className="relative w-full overflow-hidden px-0 bg-zinc-200 pt-20 pb-28 sm:py-20"
     >
       <div className="relative w-full px-0">
         <div className="md:mx-auto md:text-center xl:max-w-none">

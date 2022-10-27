@@ -50,7 +50,7 @@ export default function Home({ articles }) {
                 </b>
               </h1>
               <h2 className="mt-6 text-2xl text-zinc-500">
-                I'm Mario Ciambelli, <i className='text-zinc-300'>aka Ufobobo</i>.<br></br>UI/UX Designer and creative content creator.<br></br>
+                UI/UX Designer and creative content creator.<br></br>
               </h2>
 
             </div>
