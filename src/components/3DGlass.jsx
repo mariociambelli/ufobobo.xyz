@@ -12,26 +12,12 @@ export function Glass() {
           <linearGradient
             id="logo-gradient"
             x1="50%"
-            y1="0%"
+            y1="50%"
             x2="50%"
             y2="100%"
           >
-            <stop offset="0%" stop-color="#7A5FFF">
-              <animate
-                attributeName="stop-color"
-                values="#7A5FFF; #7A5FFF; #7A5FFF"
-                dur="4s"
-                repeatCount="indefinite"
-              ></animate>
-            </stop>
-            <stop offset="100%" stop-color="##7A5FFF">
-              <animate
-                attributeName="stop-color"
-                values="#7A5FFF; #000; #7A5FFF"
-                dur="10s"
-                repeatCount="indefinite"
-              ></animate>
-            </stop>
+            <stop offset="5%" stop-color="#7a5fff" />
+      <stop offset="95%" stop-color="#cdb7ff" />
           </linearGradient>
         </defs>
         <g>

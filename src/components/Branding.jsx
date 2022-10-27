@@ -2,7 +2,7 @@ import { useId, useRef, useState } from 'react'
 import Image from 'next/future/image'
 import clsx from 'clsx'
 import { motion, useInView, useMotionValue } from 'framer-motion'
-import screenshotLogoSoplaya from '@/images/screenshots/new-logo-esecutivo.jpg'
+
 
 import PDFSoplaya from '@/images/avatar.jpg'
 import { AppStoreLink } from '@/components/AppStoreLink'

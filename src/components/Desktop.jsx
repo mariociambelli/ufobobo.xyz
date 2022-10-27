@@ -4,9 +4,9 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotAppFarm from '@/images/screenshots/app-internal-farm.png'
-import screenshotAppSales from '@/images/screenshots/app-internal-sales.png'
-import screenshotAppAccounting from '@/images/screenshots/app-internal-accounting.png'
+
+import screenshotAppSales from '@/images/screenshots/app-internal-sales.jpg'
+
 
 
 export function Desktop() {
@@ -29,10 +29,11 @@ export function Desktop() {
 
   return (
     <section
-      className="relative overflow-hidden bg-zinc-200 pt-20 pb-28 sm:py-32"
+      className="relative w-full overflow-hidden px-0 bg-zinc-200 pt-20 pb-28 sm:py-32"
     >
-      <Container className="relative">
-        <div className=" md:mx-auto md:text-center xl:max-w-none">
+      <div className="relative w-full px-0">
+        <div className="md:mx-auto md:text-center xl:max-w-none">
+          <div className="px-4">
           <h4 className="mb-2 text-xs font-bold uppercase">Soplaya case study</h4>
           <h1 className="text-4xl font-bold text-black sm:text-4xl md:text-5xl">
             Desktop
@@ -41,8 +42,8 @@ export function Desktop() {
             The complexity of business internal applications. The semplicity of
             a design system.
           </p>
-
-          <div className="mt-16 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto ">
+          </div>
+          <div className="mt-16 w-full max-w-5xl overflow-hidden  ">
             <Image
               className="w-full"
               src={screenshotAppSales}
@@ -51,27 +52,10 @@ export function Desktop() {
               sizes="(min-width: 1024px),(min-width: 640px) 100vw, rem"
             />
           </div>
-          <div className="mt-8 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto md:mt-8 ">
-            <Image
-              className="w-full"
-              src={screenshotAppFarm}
-              alt=""
-              priority
-              sizes="(min-width: 1024px),(min-width: 640px) 100vw, rem"
-            />
-          </div>
-          <div className="mt-8 w-full overflow-hidden rounded-xl shadow-2xl sm:w-auto md:mt-8 ">
-            <Image
-              className="w-full"
-              src={screenshotAppAccounting}
-              alt=""
-              priority
-              sizes="(min-width: 1024px),(min-width: 640px) 100vw, rem"
-            />
-          </div>
+
 
         </div>
-      </Container>
+      </div>
     </section>
   )
 }
