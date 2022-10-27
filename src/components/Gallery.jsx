@@ -62,10 +62,7 @@ export function SuperGallery() {
       {['1'].map((image) => (
         <Image id={image} />
       ))}
-      <motion.div
-        className="progress z-50 bg-gradient-to-r from-teal-300 to-indigo-900"
-        style={{ scaleX }}
-      />
+      
     </>
   )
 }
