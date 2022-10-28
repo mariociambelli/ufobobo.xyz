@@ -11,7 +11,6 @@ import { SuperGallery } from '@/components/Gallery'
 import { Desktop } from '@/components/Desktop'
 import { Branding } from '@/components/Branding'
 import { GitHubIcon, LinkedInIcon, Mailicon } from '@/components/SocialIcons'
-
 import { formatDate } from '@/lib/formatDate'
 
 function SocialLink({ icon: Icon, ...props }) {
@@ -37,14 +36,13 @@ export default function Home({ articles }) {
           content="_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.b4942396.jpg&w=1080&q=75"
         />
       </Head>
-
       <Container className="mario-bg pb-32 pt-6 md:p-32 m-auto flex items-center bg-black">
         <div className="">
           <div className="max-w-6xl text-center">
             <div className='w-full'>
             <Glass />
             </div>
-            <div className="mt-6">
+            <div className="mt-0">
               <h1 className="text-5xl text-zinc-300 bold md:text-7xl">
                 <b>Bottega 2.0
                 </b>
