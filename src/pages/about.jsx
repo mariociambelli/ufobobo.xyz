@@ -10,7 +10,7 @@ import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/avatar.png'
+import portraitImage from '@/images/avatar.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -50,11 +50,11 @@ export default function About() {
       <Container className="mt-16 bg-black sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-28">
-            <div className='md:w-full w-60 '>
+            <div className='md:w-full w-60'>
               <Image
                 src={portraitImage}
                 alt=""
-                className="bold object-cover"
+                className="bold object-cover rounded-full"
               />
             </div>
           </div>
@@ -68,8 +68,7 @@ export default function About() {
                 now is a source of infinte creative inspiration.
               </p>
               <p>
-                Since the age of 14 i started building websites, I do still
-                remember the day I purchased FrontPage 2000. I got graduated in
+                Since the age of 14 i started designing web applications. I got graduated in
                 Graphic Design in 2011 and then I moved to The Netherlands where
                 I could start working as an Information Designer.
               </p>

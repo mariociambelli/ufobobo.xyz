@@ -8,6 +8,7 @@ import { Glass } from '@/components/3DGlass'
 import { Container } from '@/components/Container'
 import { Mobile } from '@/components/Mobile'
 import { SuperGallery } from '@/components/Gallery'
+import { Crypto } from '@/components/Crypto'
 import { Desktop } from '@/components/Desktop'
 import { Branding } from '@/components/Branding'
 import { GitHubIcon, LinkedInIcon, Mailicon } from '@/components/SocialIcons'
@@ -53,8 +54,9 @@ export default function Home({ articles }) {
           </div>
         </div>
       </Container>
+      <Crypto />
       <Mobile />
-      <Desktop />
+
       <SuperGallery />
     </>
   )
