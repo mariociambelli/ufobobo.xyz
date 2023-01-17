@@ -60,7 +60,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2 -mt-28 md:mt-0">
             <h1 className=" text-5xl text-zinc-300 md:text-7xl">
-              <b>I’m Mario Ciambelli.</b> UI/UX Designer based in Tuscany
+              <b>I’m Mario.</b> UI/UX Designer based in Tuscany
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-500">
               <p>

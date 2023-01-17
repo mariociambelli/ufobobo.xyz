@@ -42,7 +42,7 @@ export function Crypto() {
           </div>
           <div className="mt-16 w-full max-w-5xl mx-auto">
             <Image
-              className="w-full rounded-2xl shadow-2xl"
+              className="w-96 md:w-full rounded-2xl shadow-2xl items-center mx-auto"
               src={CryptoIMG}
               alt=""
               priority
