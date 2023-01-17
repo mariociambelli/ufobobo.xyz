@@ -49,12 +49,12 @@ export default function About() {
       </Head>
       <Container className="mt-16 bg-black sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
-          <div className="lg:pl-28">
-            <div className='md:w-full w-60'>
+          <div className="">
+            <div className='md:w-full'>
               <Image
                 src={portraitImage}
                 alt=""
-                className="bold object-cover rounded-full"
+                className="rounded-full"
               />
             </div>
           </div>
