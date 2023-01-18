@@ -10,7 +10,7 @@ import { Mobile } from '@/components/Mobile'
 import { SuperGallery } from '@/components/Gallery'
 import { Crypto } from '@/components/Crypto'
 import { Desktop } from '@/components/Desktop'
-import { Branding } from '@/components/Branding'
+
 import { GitHubIcon, LinkedInIcon, Mailicon } from '@/components/SocialIcons'
 import { formatDate } from '@/lib/formatDate'
 import { Blackhole } from '@/images/logos/glass.png'
@@ -56,7 +56,6 @@ export default function Home({ articles }) {
       </Container>
       <Crypto />
       <Mobile />
-
       <SuperGallery />
     </>
   )
