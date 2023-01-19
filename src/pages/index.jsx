@@ -48,7 +48,7 @@ export default function Home({ articles }) {
                 <b>Bottega 2.0</b>
               </h1>
               <h2 className="mt-6 text-2xl text-zinc-500">
-                UI/UX Designer and creative content creator.<br></br>
+                I'm Mario <i>aka</i> <b>ufobobo</b>.<br></br>UI/UX Designer and creative content creator.<br></br>
               </h2>
             </div>
           </div>
