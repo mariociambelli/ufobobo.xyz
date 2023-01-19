@@ -39,7 +39,7 @@ function Image({ id }) {
           <div ref={ref} className="ml-0 mt-6 text-left">
             <Button
               variant="primary"
-              href="https://shared-assets.adobe.com/link/8e949e55-29d9-4f74-404a-c7e37c3e9bf2"
+              href="https://shared-assets.adobe.com/link/1b79fb38-3fc4-4a14-7796-6fac400eee9c"
             >
               See the document
             </Button>
