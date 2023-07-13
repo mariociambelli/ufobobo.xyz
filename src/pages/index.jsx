@@ -24,11 +24,7 @@ function SocialLink({ icon: Icon, ...props }) {
 
 export default function Home({ articles }) {
 
-  useEffect(() => {
 
-    gsap.to(".visual", { x:200, duration: 3, })
-
-  }, [])
 
   return (
     
@@ -52,18 +48,16 @@ export default function Home({ articles }) {
             </div>
             <div className="mt-0">
               <h1 className="bold text-5xl text-zinc-300 md:text-7xl">
-                <b>Bottega 2.0</b>
+                I'm Mario <i>aka</i> <b>Ufobobo</b>
               </h1>
               <h2 className="mt-6 text-2xl text-zinc-500">
-                I'm Mario <i>aka</i> <b>ufobobo</b>.<br></br>UI/UX Designer and creative content creator.<br></br>
+                UI / UX Designer and creative content creator. Currently design Lead @Spearbit<br></br>
               </h2>
             </div>
           </div>
         </div>
       </Container>
-      <Crypto />
-      <Mobile />
-      <SuperGallery />
+
     </>
   )
 }
