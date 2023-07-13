@@ -24,6 +24,7 @@
     "focus-visible": "^5.2.0",
     "framer-motion": "^7.3.6",
     "framer-motion-3d": "^7.5.2",
+    "gsap": "^3.11.5",
     "next": "^12.3.0",
     "popmotion": "^11.0.5",
     "postcss-focus-visible": "^6.0.4",

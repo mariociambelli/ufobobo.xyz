@@ -1,16 +1,15 @@
 import Image from 'next/future/image'
 import Head from 'next/head'
 import Link from 'next/link'
-import portraitImage from '@/images/avatar.jpg'
+import { gsap } from 'gsap'
 import clsx from 'clsx'
-import { motion, useScroll } from 'framer-motion'
+import { useEffect } from 'react'
 import { Glass } from '@/components/3DGlass'
 import { Container } from '@/components/Container'
 import { Mobile } from '@/components/Mobile'
 import { SuperGallery } from '@/components/Gallery'
 import { Crypto } from '@/components/Crypto'
 import { Desktop } from '@/components/Desktop'
-
 import { GitHubIcon, LinkedInIcon, Mailicon } from '@/components/SocialIcons'
 import { formatDate } from '@/lib/formatDate'
 import { Blackhole } from '@/images/logos/glass.png'
@@ -24,7 +23,15 @@ function SocialLink({ icon: Icon, ...props }) {
 }
 
 export default function Home({ articles }) {
+
+  useEffect(() => {
+
+    gsap.to(".visual", { x:200, duration: 3, })
+
+  }, [])
+
   return (
+    
     <>
       <Head>
         <title>Bottega 2.0. UI/UX Designer based in Tuscany</title>
