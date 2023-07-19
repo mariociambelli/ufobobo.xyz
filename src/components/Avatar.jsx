@@ -1,14 +1,13 @@
 import { useId, useRef, useState } from 'react'
 import Image from 'next/future/image'
 import clsx from 'clsx'
-import { motion, useInView, useMotionValue, useScroll } from 'framer-motion'
-import Logo from '@/images/logos/glass.png'
+import Logo from '@/images/logos/ufobobo.jpg'
 
-export function Glass() {
+export function Avatar() {
   return (
     <div className="flex w-full justify-center">
       <Image
-        className=" w-96"
+        className="w-72 rounded-full md:w-96"
         src={Logo}
         alt=""
         priority

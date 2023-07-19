@@ -19,36 +19,3 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-/* .mario-bg {
-  background-image: linear-gradient(to bottom, #ead4bd, #d8b49e) !important;
-} */
-.section-gallery{
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  scroll-snap-align: center;
-  perspective: 500px;
-  
-}
-.section-gallery > div {
-  width: 500px;
-  position: relative;
-  max-height: 90vh;
-  background: var(--white);
-  overflow: hidden;
-}
-.img-gallery {
-  position: absolute;
-
-  max-height: 800px;
-}
-.progress {
-  position: fixed;
-  left: 0;
-  right: 0;
-  height: 10px;
-  bottom: 10px;
-}
-

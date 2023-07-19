@@ -1,8 +1,6 @@
 import { useEffect, useRef } from 'react'
 import * as ReactDOMClient from 'react-dom/client'
 import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
-
 import '@/styles/tailwind.css'
 import 'focus-visible'
 
@@ -23,7 +21,6 @@ export default function App({ Component, pageProps, router }) {
 
   return (
     <>
-      <Header />
       <motion.div
         key={router.route}
         initial="initial"
