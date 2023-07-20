@@ -23,7 +23,7 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Mario Ciambelli. UI/UX Designer based in Tuscany</title>
+        <title>Mario Ciambelli aka Ufobobo. Head Designer @Spearbit</title>
         <meta
           name="description"
           content="I'm Mario Ciambelli, aka ufobobo. UI/UX Designer based in Tuscany"
