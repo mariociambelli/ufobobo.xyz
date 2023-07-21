@@ -7,7 +7,7 @@ export function Avatar() {
   return (
     <div className="flex w-full justify-center">
       <Image
-        className="w-72 rounded-full md:w-96"
+        className="w-64 rounded-full md:w-96"
         src={Logo}
         alt=""
         priority

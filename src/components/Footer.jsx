@@ -19,7 +19,7 @@ export function Footer() {
       <Container.Outer>
         <div className="">
           <Container.Inner>
-            <div className="flex flex-col items-center justify-between gap-3 border-t  border-zinc-200 sm:flex-row md:gap-6">
+            <div className="flex flex-col items-center justify-between gap-1 border-t border-zinc-200 sm:flex-row md:gap-6">
               <div className="flex gap-6 pt-8 text-sm text-zinc-400">
                 <a
                   href="https://twitter.com/MarioCiambelli"
@@ -37,10 +37,10 @@ export function Footer() {
                   href="mailto:mario@spearbit.com"
                   className="text-black hover:text-zinc-400"
                 >
-                  Mail
+                  eMail
                 </a>
               </div>
-              <p className="pt-0 text-sm text-zinc-400  md:pt-8">
+              <p className="pt-0 text-sm text-zinc-400 pb-8 md:pb-0 md:pt-8">
                 &copy; {new Date().getFullYear()} Ufobobo - All rights reserved.
               </p>
             </div>
