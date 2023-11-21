@@ -37,10 +37,10 @@ export function Footer() {
                   href="mailto:mario@spearbit.com"
                   className="text-black hover:text-zinc-400"
                 >
-                  eMail
+                  email
                 </a>
               </div>
-              <p className="pt-0 text-sm text-zinc-400 pb-8 md:pb-0 md:pt-8">
+              <p className="pt-0 pb-8 text-sm text-zinc-400 md:pb-0 md:pt-8">
                 &copy; {new Date().getFullYear()} Ufobobo - All rights reserved.
               </p>
             </div>
