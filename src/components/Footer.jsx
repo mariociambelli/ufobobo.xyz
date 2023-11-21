@@ -25,13 +25,13 @@ export function Footer() {
                   href="https://twitter.com/MarioCiambelli"
                   className="text-black hover:text-zinc-400"
                 >
-                  Twitter
+                  twitter
                 </a>
                 <a
                   href="https://github.com/mariociambelli"
                   className="text-black hover:text-zinc-400"
                 >
-                  GitHub
+                  github
                 </a>
                 <a
                   href="mailto:mario@spearbit.com"
