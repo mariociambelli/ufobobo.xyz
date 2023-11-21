@@ -1,8 +1,6 @@
 import Image from 'next/future/image'
 import Head from 'next/head'
 import Link from 'next/link'
-import { gsap } from 'gsap'
-import clsx from 'clsx'
 import { useEffect } from 'react'
 import { Avatar, Glass } from '@/components/Avatar'
 import { Container } from '@/components/Container'
