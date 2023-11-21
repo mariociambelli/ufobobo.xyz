@@ -10,7 +10,7 @@ import {
   GitHubIcon,
   LinkedInIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/avatar.png'
+import portraitImage from '@/images/avatar.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
   return (
@@ -49,18 +49,18 @@ export default function About() {
       </Head>
       <Container className="mt-16 bg-black sm:mt-32">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
-          <div className="lg:pl-28">
-            <div className='md:w-full w-60 '>
+          <div className="">
+            <div className='md:w-full'>
               <Image
                 src={portraitImage}
                 alt=""
-                className="bold object-cover"
+                className="rounded-full"
               />
             </div>
           </div>
           <div className="lg:order-first lg:row-span-2 -mt-28 md:mt-0">
             <h1 className=" text-5xl text-zinc-300 md:text-7xl">
-              <b>I’m Mario Ciambelli.</b> UI/UX Designer based in Tuscany
+              <b>I’m Mario.</b> UI/UX Designer based in Tuscany
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-500">
               <p>
@@ -68,8 +68,7 @@ export default function About() {
                 now is a source of infinte creative inspiration.
               </p>
               <p>
-                Since the age of 14 i started building websites, I do still
-                remember the day I purchased FrontPage 2000. I got graduated in
+                Since the age of 14 i started designing web applications. I got graduated in
                 Graphic Design in 2011 and then I moved to The Netherlands where
                 I could start working as an Information Designer.
               </p>

@@ -5,12 +5,10 @@ import clsx from 'clsx'
 import { AppStoreLink } from '@/components/AppStoreLink'
 import { PlayStoreLink } from '@/components/PlayStoreLink'
 import { Container } from '@/components/Container'
-import screenshotAppVendor from '@/images/screenshots/app-screen-vendor.png'
-import screenshotAppChart from '@/images/screenshots/app-screen-chart.png'
-import screenshotAppDelivery from '@/images/screenshots/app-screen-delivery.png'
+
 import image1 from '@/images/prototype/image-1.jpg'
 import image2 from '@/images/prototype/image-2.jpg'
-import image5 from '@/images/prototype/image-5.jpg'
+import image3 from '@/images/prototype/image-3.jpg'
 
 
 import { motion, useScroll } from 'framer-motion'
@@ -34,26 +32,27 @@ export function Mobile() {
     }
   }, [])
   function Photos() {
-    let rotations = ['rotate-0', 'rotate-0', 'rotate-0', 'rotate-0']
+    let rotations = ['rotate-0', 'rotate-0', 'rotate-0']
 
     return (
-      <div className="-my-4 md:flex w-full p-10 justify-center gap-4 overflow-hidden md:py-16  ">
-        {[image5, image1, image2].map((image, imageIndex) => (
+      <div className="-my-4 md:flex w-full p-10 md:p-40 justify-center overflow-hidden md:py-16  ">
+        {[image2, image1, image3].map((image, imageIndex) => (
 
-            <div
+            <motion.div  whileHover={{
+              scale: 1.05,
+              transition: { duration: 1 },
+            }}><div
               key={image.src}
               className={clsx(
-                'relative overflow-hidden rounded-xl shadow-xl sm:w-80 sm:rounded-2xl mt-10 md:mt-0',
+                'relative overflow-hidden w-full md:mt-0',
                 rotations[imageIndex % rotations.length]
               )}
             >
               <Image
                 src={image}
-                alt=""
-                sizes="(min-width: 640px) 18rem, 11rem"
                 className="object-fit  inset-0"
               />
-            </div>
+            </div></motion.div>
 
         ))}
       </div>
@@ -80,9 +79,8 @@ export function Mobile() {
         </div>
       </Container>
       <Photos />
-      <div className="ml-0 mt-16 flex w-full justify-center gap-2 md:justify-center">
+      <div className="ml-0  flex w-full justify-center gap-2 md:justify-center">
         <AppStoreLink color="black" />
-
       </div>
     </section>
   )
