@@ -34,7 +34,7 @@ export default function Home({ articles }) {
       <Container className="mario-bg m-auto flex items-center bg-zinc-100 pt-12">
         <div className="">
           <div className="max-w-6xl text-center">
-            <div className="w-full">
+            <div className="mx-auto w-72">
               <motion.div
                 whileHover={{
                   scale: 1.05,
@@ -48,7 +48,7 @@ export default function Home({ articles }) {
               <h1 className="bold text-5xl text-zinc-900 md:text-7xl">
                 I'm Mario <i>aka</i> <b>Ufobobo</b>
               </h1>
-              <h2 className="mt-6 text-2xl text-zinc-500">
+              <h2 className="mt-6 text-xl text-zinc-500">
                 Creative content creator. Currently Head of Design{' '}
                 <a href="https://spearbit.com/" className="hover:text-black">
                   @Spearbit
