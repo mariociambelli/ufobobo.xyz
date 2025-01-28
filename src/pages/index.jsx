@@ -46,7 +46,7 @@ export default function Home({ articles }) {
             </div>
             <div className="mt-6">
               <h1 className="bold text-5xl text-zinc-900 md:text-7xl">
-                I'm Mario <i>aka</i> <b>Ufobobo</b>
+                I'm Mario <i>aka</i> Ufobobo
               </h1>
               <h2 className="mt-6 text-xl text-zinc-500">
                 Creative content creator. Currently Product Designer{' '}
