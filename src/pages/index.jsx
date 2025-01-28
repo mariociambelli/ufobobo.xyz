@@ -49,7 +49,7 @@ export default function Home({ articles }) {
                 I'm Mario <i>aka</i> Ufobobo
               </h1>
               <h2 className="mt-6 text-xl text-zinc-500">
-                Creative content creator. Currently Product Designer{' '}
+                Currently Product Designer{' '}
                 <a href="https://spearbit.com/" className="hover:text-black">
                   @Spearbit
                 </a>
