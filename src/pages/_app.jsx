@@ -5,9 +5,6 @@ import 'focus-visible'
 import { motion } from 'framer-motion'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 
-// Add this to your app component
-<SpeedInsights />
-
 export default function App({ Component, pageProps, router }) {
   return (
     <motion.div
@@ -23,12 +20,13 @@ export default function App({ Component, pageProps, router }) {
         },
       }}
     >
-      <div className="relative h-screen flex flex-col">
+      <div className="relative flex h-screen flex-col">
         <main className="flex-1">
           <Component {...pageProps} />
         </main>
         <Footer />
       </div>
+      <SpeedInsights />
     </motion.div>
   )
 }

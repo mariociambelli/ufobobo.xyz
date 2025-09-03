@@ -1,25 +1,20 @@
-import { gsap } from "gsap";
-import { useEffect, useRef } from "react";
+import { gsap } from 'gsap'
+import { useEffect, useRef } from 'react'
 
 const App = () => {
-
-  const app = useRef<HTMLDivElement>(null);
-  const tl = useRef<GSAPTimeline>(null)
+  const app = useRef < HTMLDivElement > null
+  const tl = useRef < GSAPTimeline > null
 
   useEffect(() => {
-
     let ctx = gsap.context(() => {
-
-      tl.current = gsap.timeline()
-        .to(".square", { rotate: 360 })
-        .to(".square2", { x: 200 });
-
-    }, app);
+      tl.current = gsap
+        .timeline()
+        .to('.square', { rotate: 360 })
+        .to('.square2', { x: 200 })
+    }, app)
 
     return () => ctx.revert()
-
-  }, [])
-
+  }, [app, tl])
 
   return (
     <div ref={app}>
