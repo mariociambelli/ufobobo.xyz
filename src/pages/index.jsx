@@ -83,7 +83,7 @@ export default function Home() {
                   >
                     M77
                   </a>
-                  <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-purple-300 transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-0.5 left-0 h-0.5 w-0 bg-purple-300 transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </li>
             </ul>
