@@ -17,7 +17,7 @@ export function Footer() {
   return (
     <footer className="mt-auto mb-20">
       <Container>
-        <div className="items-left flex flex-col justify-between gap-1 border-t border-zinc-200 sm:flex-row md:gap-6">
+        <div className="items-left flex flex-col justify-between gap-1 border-t border-zinc-300 sm:flex-row md:gap-6">
           <div className="flex gap-6 pt-8 text-sm font-normal">
             <a
               href="https://github.com/mariociambelli"
