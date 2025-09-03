@@ -35,8 +35,8 @@ export default function Home() {
           </div>
           <div className="mt-20">
             <ul className="text-md font-normal uppercase tracking-wide text-zinc-700 md:text-xl">
-              <li className="group relative cursor-pointer list-none font-semibold text-zinc-900">
-                <span className="relative">Past works</span>
+              <li className="group mb-2 relative cursor-pointer list-none font-semibold text-zinc-900">
+                <span className="relative">Portfolio</span>
               </li>
               <li className="group relative cursor-pointer list-none font-normal">
                 <span className="relative">
