@@ -18,7 +18,7 @@ export default function Home() {
       <Container className="m-auto flex h-full items-center justify-center">
         <div className="text-left">
           <div className="mt-6">
-            <h1 className="text-5xl text-zinc-900 md:text-9xl">
+            <h1 className="text-5xl font-semibold text-zinc-900 md:text-9xl">
               I&apos;m Mario <i>aka</i> Ufobobo
             </h1>
             <h2 className="text-md mt-6 font-normal uppercase tracking-wide text-zinc-700 md:text-xl">
@@ -35,10 +35,10 @@ export default function Home() {
           </div>
           <div className="mt-20">
             <ul className="text-md font-normal uppercase tracking-wide text-zinc-700 md:text-xl">
-              <li className="group relative mb-2 cursor-pointer list-none font-semibold text-zinc-900">
+              <li className="group relative cursor-pointer list-none font-semibold text-zinc-900">
                 <span className="relative">Past works</span>
               </li>
-              <li className="group relative mb-2 cursor-pointer list-none font-normal">
+              <li className="group relative cursor-pointer list-none font-normal">
                 <span className="relative">
                   <a
                     href="https://ufobobo.notion.site/Cantina-24d77d4db4608097b5bfccef8a231b7d?pvs=74"
@@ -47,10 +47,10 @@ export default function Home() {
                   >
                     Cantina
                   </a>
-                  <span className="absolute -bottom-2 left-0 h-0.5 w-0 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </li>
-              <li className="group relative mb-2 cursor-pointer list-none font-normal">
+              <li className="group relative cursor-pointer list-none font-normal">
                 <span className="relative">
                   <a
                     href="https://spearbit.com"
@@ -59,10 +59,10 @@ export default function Home() {
                   >
                     Spearbit
                   </a>
-                  <span className="absolute -bottom-2 left-0 h-0.5 w-0 bg-purple-500  transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-purple-500  transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </li>
-              <li className="group relative mb-2 cursor-pointer list-none font-normal">
+              <li className="group relative cursor-pointer list-none font-normal">
                 <span className="relative">
                   <a
                     href="https://soplaya.com"
@@ -71,10 +71,10 @@ export default function Home() {
                   >
                     Soplaya
                   </a>
-                  <span className="absolute -bottom-2 left-0 h-0.5 w-0 bg-purple-400 transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-purple-400 transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </li>
-              <li className="group relative mb-2 cursor-pointer list-none font-normal">
+              <li className="group relative cursor-pointer list-none font-normal">
                 <span className="relative">
                   <a
                     href="https://magazzino77.com"
@@ -83,7 +83,7 @@ export default function Home() {
                   >
                     M77
                   </a>
-                  <span className="absolute -bottom-2 left-0 h-0.5 w-0 bg-purple-300 transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-purple-300 transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </li>
             </ul>
