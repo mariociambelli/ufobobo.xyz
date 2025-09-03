@@ -3,6 +3,10 @@ import '@/styles/tailwind.css'
 import 'focus-visible'
 
 import { motion } from 'framer-motion'
+import { SpeedInsights } from '@vercel/speed-insights/next'
+
+// Add this to your app component
+<SpeedInsights />
 
 export default function App({ Component, pageProps, router }) {
   return (
