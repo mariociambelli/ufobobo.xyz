@@ -41,7 +41,7 @@ export default function Home() {
               <li className="group relative cursor-pointer list-none font-normal">
                 <span className="relative">
                   <a
-                    href="https://ufobobo.notion.site/Cantina-24d77d4db4608097b5bfccef8a231b7d?pvs=74"
+                    href="https://ufobobo.notion.site/cantina"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -53,7 +53,7 @@ export default function Home() {
               <li className="group relative cursor-pointer list-none font-normal">
                 <span className="relative">
                   <a
-                    href="https://ufobobo.notion.site/Spearbit-26377d4db46080408b47ec2ef5763dbc?source=copy_link"
+                    href="https://ufobobo.notion.site/spearbit"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
