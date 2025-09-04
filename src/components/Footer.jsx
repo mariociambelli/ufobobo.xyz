@@ -23,13 +23,13 @@ export function Footer() {
               href="https://github.com/mariociambelli"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-700 hover:text-zinc-400"
+              className="text-zinc-700 hover:text-purple-500"
             >
               github
             </a>
             <a
               href="mailto:mario@spearbit.com"
-              className="text-zinc-700 hover:text-zinc-400"
+              className="text-zinc-700 hover:text-purple-500"
             >
               email
             </a>
@@ -37,7 +37,7 @@ export function Footer() {
               href="https://www.instagram.com/mario.ciambelli/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-700 hover:text-zinc-400"
+              className="text-zinc-700 hover:text-purple-500"
             >
               ig
             </a>

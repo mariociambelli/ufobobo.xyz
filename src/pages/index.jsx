@@ -18,7 +18,7 @@ export default function Home() {
       <Container className="m-auto flex h-full items-center justify-center">
         <div className="text-left">
           <div className="mt-6">
-            <h1 className="text-5xl font-bold text-zinc-900 md:text-9xl">
+            <h1 className="text-5xl font-normal text-zinc-900 md:text-9xl">
               I&apos;m Mario <i>aka</i> Ufobobo
             </h1>
             <h2 className="text-md mt-6 font-normal tracking-wide text-zinc-700 md:text-xl">
@@ -27,18 +27,15 @@ export default function Home() {
                 href="https://spearbit.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-black"
+                className="hover:text-purple-500"
               >
                 @Spearbit
               </a>
             </h2>
           </div>
           <div className="mt-20">
-            <ul className="text-md font-normal uppercase tracking-wide text-zinc-700 md:text-xl">
-              <li className="group relative mb-2 cursor-pointer list-none font-semibold text-zinc-900">
-                <span className="relative">Portfolio</span>
-              </li>
-              <li className="group relative cursor-pointer list-none font-normal">
+            <ul className="text-md font-semibold uppercase tracking-wide text-zinc-900 md:text-xl">
+              <li className="group relative mb-1 cursor-pointer list-none">
                 <span className="relative">
                   <a
                     href="https://ufobobo.notion.site/cantina"
@@ -50,7 +47,7 @@ export default function Home() {
                   <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-purple-600 transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </li>
-              <li className="group relative cursor-pointer list-none font-normal">
+              <li className="group relative mb-1 cursor-pointer list-none">
                 <span className="relative">
                   <a
                     href="https://ufobobo.notion.site/spearbit"
@@ -62,7 +59,7 @@ export default function Home() {
                   <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-purple-500  transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </li>
-              <li className="group relative cursor-pointer list-none font-normal">
+              <li className="group relative mb-1 cursor-pointer list-none">
                 <span className="relative">
                   <a
                     href="https://soplaya.com"
@@ -74,7 +71,7 @@ export default function Home() {
                   <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-purple-400 transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </li>
-              <li className="group relative cursor-pointer list-none font-normal">
+              <li className="group relative mb-1 cursor-pointer list-none">
                 <span className="relative">
                   <a
                     href="https://magazzino77.com"
