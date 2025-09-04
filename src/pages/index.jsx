@@ -18,11 +18,11 @@ export default function Home() {
       <Container className="m-auto flex h-full items-center justify-center">
         <div className="text-left">
           <div className="mt-6">
-            <h1 className="text-5xl font-semibold text-zinc-900 md:text-9xl">
+            <h1 className="text-5xl font-bold text-zinc-900 md:text-9xl">
               I&apos;m Mario <i>aka</i> Ufobobo
             </h1>
-            <h2 className="text-md mt-6 font-normal uppercase tracking-wide text-zinc-700 md:text-xl">
-              Currently Product Designer{' '}
+            <h2 className="text-md mt-6 font-normal tracking-wide text-zinc-700 md:text-xl">
+              Figma and Cursor addicted. Currently Product Designer{' '}
               <a
                 href="https://spearbit.com/"
                 target="_blank"
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
           <div className="mt-20">
             <ul className="text-md font-normal uppercase tracking-wide text-zinc-700 md:text-xl">
-              <li className="group mb-2 relative cursor-pointer list-none font-semibold text-zinc-900">
+              <li className="group relative mb-2 cursor-pointer list-none font-semibold text-zinc-900">
                 <span className="relative">Portfolio</span>
               </li>
               <li className="group relative cursor-pointer list-none font-normal">
@@ -83,7 +83,7 @@ export default function Home() {
                   >
                     M77
                   </a>
-                  <span className="absolute -bottom-0.5 left-0 h-0.5 w-0 bg-purple-300 transition-all duration-300 group-hover:w-full"></span>
+                  <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-purple-300 transition-all duration-300 group-hover:w-full"></span>
                 </span>
               </li>
             </ul>
