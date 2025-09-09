@@ -62,7 +62,7 @@ export default function Home() {
               <li className="group relative mb-1 cursor-pointer list-none">
                 <span className="relative">
                   <a
-                    href="https://soplaya.com"
+                    href="https://ufobobo.notion.site/soplaya"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
