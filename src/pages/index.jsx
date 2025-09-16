@@ -34,7 +34,15 @@ export default function Home() {
             </h2>
           </div>
           <div className="mt-20">
-            <ul className="text-md font-semibold uppercase tracking-wide text-zinc-900 md:text-xl">
+            <ul className="text-md font-regular uppercase tracking-wider text-zinc-900 md:text-xl">
+              <li className="group relative mb-1 cursor-pointer list-none">
+                <span className="relative">
+                  <p className="font-bold"
+                  >
+                    WORKS
+                  </p>
+                </span>
+              </li>
               <li className="group relative mb-1 cursor-pointer list-none">
                 <span className="relative">
                   <a
