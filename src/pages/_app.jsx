@@ -4,6 +4,7 @@ import 'focus-visible'
 
 import { motion } from 'framer-motion'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from "@vercel/analytics/next"
 
 export default function App({ Component, pageProps, router }) {
   return (
@@ -27,6 +28,7 @@ export default function App({ Component, pageProps, router }) {
         <Footer />
       </div>
       <SpeedInsights />
+      <Analytics />
     </motion.div>
   )
 }
