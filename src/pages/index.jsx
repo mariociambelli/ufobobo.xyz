@@ -19,7 +19,7 @@ export default function Home() {
         <div className="text-left">
           <div className="mt-6">
             <h1 className="text-5xl font-normal text-zinc-900 md:text-9xl">
-              I&apos;m Mario <i>aka</i> Ufobobi
+              I&apos;m Mario <i>aka</i> Ufobobo
             </h1>
             <h2 className="text-md mt-6 font-normal tracking-wide text-zinc-700 md:text-xl">
               Figma and Cursor addicted. Currently Product Designer{' '}
